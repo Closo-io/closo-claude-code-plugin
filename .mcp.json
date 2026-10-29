@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "closo": {
+      "type": "http",
+      "url": "https://mcp.closo.io/mcp"
+    }
+  }
+}

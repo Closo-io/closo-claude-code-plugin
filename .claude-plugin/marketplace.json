@@ -1,0 +1,23 @@
+{
+  "name": "closo-io",
+  "owner": {
+    "name": "Closo",
+    "url": "https://closo.io"
+  },
+  "description": "Closo plugins for Claude Code",
+  "plugins": [
+    {
+      "name": "closo",
+      "source": "./",
+      "description": "Closo: свои цифры, диалоги, задачи, настройка ботов и импорт лидов из Claude Code и Codex. Closo sales platform for your coding assistant.",
+      "category": "productivity",
+      "tags": [
+        "closo",
+        "crm",
+        "sales",
+        "chatbot",
+        "mcp"
+      ]
+    }
+  ]
+}
