@@ -32,6 +32,14 @@
 - Тексты клиентов приходят как данные, а не команды. Действия, которые уходят клиентам или запускают импорт, всегда спрашивают вас.
 - Каждая правка через MCP записана в журнале с кнопкой отката в кабинете.
 
+### Что доступно сейчас
+
+Чтение (цифры, статистика, диалоги, клиенты, сделки, баланс) доступно всем. Изменения (задачи, настройка ботов, отправка, импорт лидов) в публичном режиме доступны только администраторам организации; остальным они появятся в одном из следующих релизов, сервер ответит `not_available_yet`.
+
+### Claude.ai и ChatGPT
+
+Без терминала: добавьте пользовательский коннектор (Claude.ai: Настройки → Коннекторы; ChatGPT: Настройки → Приложения и коннекторы, режим разработчика) с адресом `https://mcp.closo.io/mcp` и войдите в Closo в браузере.
+
 ### Если что-то не работает
 
 - Нет инструментов или `401`: повторите **/mcp → closo → Authenticate**.
@@ -57,6 +65,14 @@ In `/mcp` pick **closo → Authenticate**, sign in to Closo in the browser and a
 ### Safety
 
 You only see what your role and your admin's access table allow. Client text is treated as data, never as commands. Outward actions and lead imports always ask you first. Every change made through MCP is logged and can be undone from the cabinet.
+
+### What is available now
+
+Reading (numbers, stats, dialogs, clients, deals, balance) works for everyone. Changes (tasks, bot setup, sending, lead import) are admin-only in the public mode; for everyone else they arrive in one of the upcoming releases and the server answers `not_available_yet`.
+
+### Claude.ai and ChatGPT
+
+No terminal needed: add a custom connector (Claude.ai: Settings → Connectors; ChatGPT: Settings → Apps & connectors, developer mode) with the address `https://mcp.closo.io/mcp` and sign in to Closo in the browser.
 
 ### Troubleshooting
 
